@@ -1,0 +1,39 @@
+.navbar .navbar-nav .nav-link {
+    color: #f4e8e8;
+    font-size: 1.1em;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #808080;
+}
+.sm-icons {
+  flex-direction: row;
+}
+@media only screen and (max-width: 960px) {
+  .sm-icons .nav-item {
+    padding-right: 1em;
+  }
+}
+
+section.banner{
+  background-image: linear-gradient(
+    rgba(0,0,0,0.9),
+    rgba(0,0,0,0.2)
+  ), url(/images/banner.jpg);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  position:relative;
+  background-size: cover;
+  -moz-background-size: cover;
+}
+
+h2.intro{
+  padding-top: 15%;
+  font-size: 2rem;
+}
+h1.intro{
+  font-size: 3.5rem;
+}
+h3.intro{
+  font-size: 3rem;
+}
